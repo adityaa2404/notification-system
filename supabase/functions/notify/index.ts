@@ -67,15 +67,3 @@ serve(async (req) => {
 });
 
 
-
-/* To invoke locally:
-
-  1. Run `supabase start` (see: https://supabase.com/docs/reference/cli/supabase-start)
-  2. Make an HTTP request:
-
-  curl -i --location --request POST 'http://127.0.0.1:54321/functions/v1/notify' \
-    --header 'Authorization: Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImI4MTI2OWYxLTIxZDgtNGYyZS1iNzE5LWMyMjQwYTg0MGQ5MCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjIwODQwMTQzNDl9.RoQODZEJFpJEW9bq0hm8e339iT43CVA61y-LNWGsXvBfODL6eucvEnSd4gnT1yg_pga0g9eYwbnoae9rfNmv7g' \
-    --header 'Content-Type: application/json' \
-    --data '{"name":"Functions"}'
-
-*/
