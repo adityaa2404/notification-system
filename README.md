@@ -233,14 +233,6 @@ The system implements graceful error handling:
 - Rate limiting recommended for production
 - HTTPS enforced for all communications
 
-## Contributing
-
-1. Create a feature branch
-2. Implement changes with tests
-3. Submit a pull request
-
-
-
 ## Support
 
 For issues or questions:
